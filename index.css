@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(40, 36, 68);
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+
+}
+h1{
+  color: white;
+  text-shadow: 4px 0 rgb(241, 101, 125);
+  font-size: 5rem;
+  letter-spacing: 15px;
+}
+.set{
+  margin: 150px auto;
+}
+.drum{
+  color: rgb(233, 68, 68);
+  font-weight: bold;
+ outline: none;
+ width: 150px;
+ height: 150px;
+ margin-left: 20px;
+ font-size: 60px;
+ border-radius: 15px;
+ border: 15px solid rgb(68, 40, 93);
+ background-color: white;
+}
+footer{
+  color: white;
+}
+.w {
+  background-image: url("tom1.png");
+}
+.a {
+  background-image: url("tom2.png");
+}
+.s {
+  background-image: url("tom2.png");
+}
+.d {
+  background-image: url("tom4.png");
+}
+.j {
+  background-image: url("snare.png");
+}
+.k {
+  background-image: url("crash.png");
+}
+.l {
+  background-image: url("kick.png");
+}
+
+.pressed {
+  box-shadow: 0px 3px 4px 0px #DBEDF3 ;
+  opacity: 0.5;
+}
